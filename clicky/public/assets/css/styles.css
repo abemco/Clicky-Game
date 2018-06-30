@@ -25,14 +25,15 @@
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 	border: none;
-	font: normal 50px/normal "Chau Philomene One", Helvetica, sans-serif;
-	color: rgb(51, 51, 51);
+	font-family: 'Bangers', cursive;
+    font-style: italic;
+	color: rgba(255, 72, 0, 0.897);
 	text-align: center;
 	-o-text-overflow: clip;
 	text-overflow: clip;
 	font-weight: bold;
 	letter-spacing: 3px;
-	text-shadow: -3px 0 1px rgb(30, 242, 241), 3px 0 1px rgb(246, 5, 10);
+	text-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
 }
 
 .divider {
@@ -44,7 +45,10 @@
 }
 
 .card {
-	border: 5px solid white;
+	border: 1px solid white;
+	height: 125px;
+	width: 160px;
+	position: center;
 }
 
 .card:hover {
@@ -52,7 +56,11 @@
 }
 
 .card-image {
-	padding: 10%;
+	height: 125px;
+    width: 160px;
+	padding: none;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+    transition: box-shadow 1.5s;
 }
 
 .parallax img {
